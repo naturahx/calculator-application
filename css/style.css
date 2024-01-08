@@ -1,3 +1,8 @@
+body {
+  background: rgb(38,34,34);
+  background: linear-gradient(90deg, rgba(38,34,34,1) 0%, rgba(218,129,7,1) 38%, rgba(203,124,15,1) 63%, rgba(79,79,79,1) 100%);
+}
+
 .calc {
   margin: 50px auto;
   width: 300px;
@@ -9,6 +14,12 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 18px;
   box-shadow: 4px 4px 4px #4f4f4f;
+}
+
+.tg {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
 }
 
 .calc-screen {
